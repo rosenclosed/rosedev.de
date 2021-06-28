@@ -94,3 +94,24 @@ footer {
     padding-top   : 2em;
     padding-bottom: 0.5em;
 }
+
+@media screen and (max-width: 767px) {
+    footer {
+        p:last-of-type {
+            margin-top: 1em;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    section:last-of-type {
+        .container {
+            padding-top     : 50vh;
+            //padding-bottom: 40vh;
+        }
+    }
+
+    .footer {
+        margin-top: 27vh;
+    }
+}
