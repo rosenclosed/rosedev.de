@@ -8,7 +8,7 @@ html.light-theme {
 }
 
 html.dark-theme {
-    --bgcolor        : #252525 !important;
+    --bgcolor        : #464646 !important;
     --textcolor      : #f0f0f0 !important;
     --footerlinecolor: #5a5a5a !important;
 }
@@ -22,7 +22,7 @@ html.amoled-theme {
 html {
     background-color: var(--bgcolor);
     color           : var(--textcolor);
-    transition      : 0.25s;
+    transition      : 0.1s;
 }
 
 body {
