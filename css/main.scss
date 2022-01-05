@@ -92,6 +92,12 @@ nav {
     }
 }
 
+@media screen and (max-width: 1033px) {
+    #my-calendar {
+        display: none;
+    }
+}
+
 section:last-of-type {
     .container {
         padding-bottom: 30vh;
@@ -126,5 +132,17 @@ footer {
 
     .footer {
         margin-top: 27vh;
+    }
+
+    @media screen and (max-width: 374px) {
+        .footer {
+            margin-top: 40vh;
+        }
+    }
+}
+
+@media screen and (max-height: 570px) {
+    .footer {
+        margin-top: 40vh;
     }
 }
