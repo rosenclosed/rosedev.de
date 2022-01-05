@@ -5,7 +5,7 @@ html.light-theme {
 }
 
 html.dark-theme {
-  --bgcolor: #363636 !important;
+  --bgcolor: #464646 !important;
   --textcolor: #f0f0f0 !important;
   --footerlinecolor: #5a5a5a !important;
 }
@@ -64,6 +64,17 @@ nav {
 
 #welcometo {
   font-size: x-large;
+}
+
+#my-calendar {
+  margin: 15em 5em 41em 5em;
+  padding: 15em 5em 41em 5em;
+}
+
+#calendar a {
+  text-decoration: none;
+  cursor: default;
+  color: var(--textcolor);
 }
 
 section:last-of-type .container {

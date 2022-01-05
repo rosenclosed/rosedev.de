@@ -79,6 +79,19 @@ nav {
     font-size: x-large;
 }
 
+#my-calendar {
+    margin : 15em 5em 41em 5em;
+    padding: 15em 5em 41em 5em;
+}
+
+#calendar {
+    a {
+        text-decoration: none;
+        cursor         : default;
+        color          : var(--textcolor);
+    }
+}
+
 section:last-of-type {
     .container {
         padding-bottom: 30vh;
