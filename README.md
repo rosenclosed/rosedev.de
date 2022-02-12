@@ -1,3 +1,8 @@
 # WilliamReed2004.github.io
 
-(c) William Lee Reed
+
+WilliamReed2004
+
+reedwilliam2004
+
+(c) Rose Lee Reed
