@@ -19,8 +19,7 @@
     <script src="./fontawesome-free-5.15.1-web/js/all.min.js"></script>
     <link rel="stylesheet" href="./css/main.css">
     <script>
-
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', function() {
             var calendarEl = document.getElementById('calendar');
 
             var calendar = new FullCalendar.Calendar(calendarEl, {
@@ -37,7 +36,7 @@
 
                 events: 'rer5e4lqalbin76cmdiha4u82k@group.calendar.google.com',
 
-                eventClick: function (arg) {
+                eventClick: function(arg) {
 
                     // opens events in a popup window
                     window.open(arg.event.url, '_blank', 'width=700,height=600');
@@ -50,7 +49,6 @@
 
             calendar.render();
         });
-
     </script>
 </head>
 
@@ -88,10 +86,10 @@
 
     <nav id="navbar-top-level" class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container-fluid">
-            <a href="#welcome" class="navbar-brand">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <a href="#welcome" class="navbar-brand">
+                <img class="navbar-img" src="./img/e_light.png" alt="E-Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -133,8 +131,8 @@
         <div class="container">
             <div class="">
                 <div class="text-center">
-                    <p id="welcometo">Welcome to</p>
-                    <h1>WilliamReed2004's Dashboard</h1>
+                    <h1>EchtWahr1128</h1>
+                    <p id="welcometo">Personal Dashboard</p>
                 </div>
             </div>
         </div>
@@ -149,7 +147,7 @@
         </div>
     </section>
 
-    <section id="my-calendar" class="standard-section">
+    <section id="my-calendar" class="standard-section hidden">
         <div id="calendar" class="container-fluid"></div>
     </section>
 
@@ -158,12 +156,10 @@
             <div class="">
                 <h1>Projects</h1>
                 <h2>Current:</h2>
-                <p>Currently I am working on the Website for Fridays For Future Moosburg. <a
-                        href="https://github.com/fffmoosburg/fffmoosburg.github.io"><i class="fab fa-github"></i> See
-                        more on GitHub</a></p>
+                <p>Currently I am working on the Website for Fridays For Future Moosburg(<a href="https://github.com/fffmoosburg/fffmoosburg.github.io"><i
+                            class="fab fa-github"></i>&nbsp;GitHub</a>) and the Website for the Midwifes in Moosburg(<a href="https://github.com/ReedFamily/hebamme-web"><i class="fab fa-github"></i>&nbsp;GitHub</a>).
+                </p>
                 <h2>Previous:</h2>
-                <p>Website for the Midwifes in Moosburg. <a href="https://github.com/ReedFamily/hebamme-web"><i
-                            class="fab fa-github"></i> GitHub</a></p>
                 <p>Würfeln mit Laschet <a href="https://github.com/WilliamReed2004/wuerfelnmitlaschet"><i
                             class="fab fa-github"></i> GitHub</a></p>
             </div>

@@ -1,3 +1,7 @@
+.hidden {
+  display: none;
+}
+
 html.light-theme {
   --bgcolor: #f0f0f0 !important;
   --textcolor: #0f0f0f !important;
@@ -40,6 +44,11 @@ nav {
 .theme-toggler-icon {
   height: 1em;
   width: auto;
+}
+
+.navbar-img {
+  width: 2em;
+  height: 2em;
 }
 
 .standard-section {
