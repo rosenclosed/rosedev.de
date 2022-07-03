@@ -1,3 +1,7 @@
+.hidden {
+  display: none;
+}
+
 html.light-theme {
   --bgcolor: #f0f0f0 !important;
   --textcolor: #0f0f0f !important;
@@ -42,6 +46,26 @@ nav {
   width: auto;
 }
 
+@media (prefers-color-scheme: dark) {
+  #light-theme-toggler {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  #dark-theme-toggler {
+    display: none;
+  }
+  #amoled-theme-toggler {
+    display: none;
+  }
+}
+
+.navbar-img {
+  width: 2em;
+  height: 2em;
+}
+
 .standard-section {
   min-height: 55vh;
   max-height: 65vh;
@@ -77,6 +101,12 @@ nav {
   color: var(--textcolor);
 }
 
+@media screen and (max-width: 1033px) {
+  #my-calendar {
+    display: none;
+  }
+}
+
 section:last-of-type .container {
   padding-bottom: 30vh;
 }
@@ -103,6 +133,18 @@ footer {
   }
   .footer {
     margin-top: 27vh;
+  }
+}
+
+@media screen and (max-width: 576px) and (max-width: 374px) {
+  .footer {
+    margin-top: 40vh;
+  }
+}
+
+@media screen and (max-height: 570px) {
+  .footer {
+    margin-top: 40vh;
   }
 }
 /*# sourceMappingURL=main.css.map */
