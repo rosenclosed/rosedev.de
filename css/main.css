@@ -46,6 +46,21 @@ nav {
   width: auto;
 }
 
+@media (prefers-color-scheme: dark) {
+  #light-theme-toggler {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  #dark-theme-toggler {
+    display: none;
+  }
+  #amoled-theme-toggler {
+    display: none;
+  }
+}
+
 .navbar-img {
   width: 2em;
   height: 2em;
