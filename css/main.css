@@ -23,7 +23,6 @@ html.amoled-theme {
 html {
   background-color: var(--bgcolor);
   color: var(--textcolor);
-  -webkit-transition: 0.1s;
   transition: 0.1s;
 }
 
@@ -51,7 +50,6 @@ nav {
     display: none;
   }
 }
-
 @media (prefers-color-scheme: light) {
   #dark-theme-toggler {
     display: none;
@@ -60,7 +58,6 @@ nav {
     display: none;
   }
 }
-
 .navbar-img {
   width: 2em;
   height: 2em;
@@ -70,7 +67,6 @@ nav {
   min-height: 55vh;
   max-height: 65vh;
 }
-
 .standard-section .container {
   padding-top: 40vh;
   margin-bottom: 10vh;
@@ -80,7 +76,6 @@ nav {
   min-height: 55vh;
   max-height: 65vh;
 }
-
 #welcome .container {
   padding-top: 35vh;
   margin-bottom: 10vh;
@@ -106,7 +101,6 @@ nav {
     display: none;
   }
 }
-
 section:last-of-type .container {
   padding-bottom: 30vh;
 }
@@ -126,7 +120,6 @@ footer {
     margin-top: 1em;
   }
 }
-
 @media screen and (max-width: 576px) {
   section:last-of-type .container {
     padding-top: 50vh;
@@ -135,16 +128,13 @@ footer {
     margin-top: 27vh;
   }
 }
-
 @media screen and (max-width: 576px) and (max-width: 374px) {
   .footer {
     margin-top: 40vh;
   }
 }
-
 @media screen and (max-height: 570px) {
   .footer {
     margin-top: 40vh;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
