@@ -105,6 +105,18 @@ section:last-of-type .container {
   padding-bottom: 30vh;
 }
 
+.socials-link {
+  text-decoration: none !important;
+  cursor: pointer;
+  color: var(--textcolor);
+}
+
+.socials-link-icon {
+  text-decoration: none !important;
+  cursor: pointer;
+  color: var(--textcolor);
+}
+
 footer {
   border-top: 1px solid var(--footerlinecolor);
 }
