@@ -59,3 +59,16 @@
   position: relative !important;
 }
 
+@media (min-width: 768px) {
+  margin-top: 2.5em;
+  margin-top: 7.5em;
+}
+
+.footer {
+  margin-top: 7em;
+}
+
+@media (min-width: 768px) .footer {
+  margin-top: 2em;
+}
+
