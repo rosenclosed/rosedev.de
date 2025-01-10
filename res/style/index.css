@@ -169,9 +169,9 @@ main a:hover {
 .bullet-list ul {
   margin-left: -1.75em;
   list-style-type: none;
-}
-@media screen and (max-width: 504px) {
-  .bullet-list ul li {
-    margin-bottom: 1em;
-  }
+  /* li {
+      @media screen and (max-width: 504px) {
+          margin-bottom: 1em;
+      }
+  } */
 }/*# sourceMappingURL=index.css.map */
