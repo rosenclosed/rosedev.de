@@ -161,5 +161,45 @@ main {
         @media screen and (orientation: portrait) {
             max-width: 95%;
         }
+
+        &.picture-wrapper {
+            text-align: center;
+        }
+
+        picture {
+            max-width: 95%;
+            max-height: 95%;
+
+            img {
+                max-width: 95%;
+                max-height: 95%;
+            }
+        }
+    }
+
+    a {
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration-style: double;
+        }
+    }
+}
+
+.bullet-list {
+    /* li::marker {
+        content: '• ';
+        font-size: 22px;
+        font-family: 'Departure Mono', 'Courier New', Courier, monospace;
+    } */
+    ul {
+        margin-left: -1.75em;
+        list-style-type: none;
+
+        li {
+            @media screen and (max-width: 504px) {
+                margin-bottom: 1em;
+            }
+        }
     }
 }

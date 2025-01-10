@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "BigBlue TerminalPlus";
   src: url("/res/fonts/BigBlue_TerminalPlus.eot");
@@ -42,6 +43,11 @@ body {
   overflow: hidden;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 #page-container {
   position: relative;
   min-height: 100%;
@@ -80,14 +86,14 @@ nav {
   }; */
   padding-top: 0.25rem;
   /*     >:first-child {
-          padding-left: .25rem;
-          padding-right: .125rem;
-      }
+      padding-left: .25rem;
+      padding-right: .125rem;
+  }
 
-      >:last-child {
-          padding-left: .125rem;
-          padding-right: .25rem;
-      } */
+  >:last-child {
+      padding-left: .125rem;
+      padding-right: .25rem;
+  } */
 }
 nav > a {
   text-decoration: none;
@@ -133,5 +139,39 @@ main > div {
 @media screen and (orientation: portrait) {
   main > div {
     max-width: 95%;
+  }
+}
+main > div.picture-wrapper {
+  text-align: center;
+}
+main > div picture {
+  max-width: 95%;
+  max-height: 95%;
+}
+main > div picture img {
+  max-width: 95%;
+  max-height: 95%;
+}
+main a {
+  text-decoration: underline;
+}
+main a:hover {
+  text-decoration-style: double;
+}
+
+.bullet-list {
+  /* li::marker {
+      content: '• ';
+      font-size: 22px;
+      font-family: 'Departure Mono', 'Courier New', Courier, monospace;
+  } */
+}
+.bullet-list ul {
+  margin-left: -1.75em;
+  list-style-type: none;
+}
+@media screen and (max-width: 504px) {
+  .bullet-list ul li {
+    margin-bottom: 1em;
   }
 }/*# sourceMappingURL=index.css.map */
