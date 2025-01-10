@@ -178,12 +178,12 @@ main {
         }
 
         picture {
-            max-width: 95%;
-            max-height: 95%;
+            width: 95%;
+            height: auto;
 
             img {
-                max-width: 95%;
-                max-height: 95%;
+                width: 95%;
+                height: auto;
             }
         }
     }

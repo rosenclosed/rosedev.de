@@ -154,12 +154,12 @@ main a:hover {
   text-align: center;
 }
 .mainflex > div picture {
-  max-width: 95%;
-  max-height: 95%;
+  width: 95%;
+  height: auto;
 }
 .mainflex > div picture img {
-  max-width: 95%;
-  max-height: 95%;
+  width: 95%;
+  height: auto;
 }
 
 .bullet-list {
