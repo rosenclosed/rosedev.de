@@ -79,9 +79,18 @@ main {
   border: 0.15rem solid white;
   padding: 0.75rem;
   background: rgba(0, 0, 0, 0.33);
-  min-width: 70%;
-  min-height: 70%;
+  width: 70%;
+  height: 70%;
+  overflow: scroll;
+}
+@media screen and (orientation: portrait) {
+  main {
+    width: 90%;
+    height: 90%;
+  }
 }
 main > div {
-  min-width: 45%;
+  flex-grow: 1;
+  flex-shrink: 0.5;
+  max-width: 95%;
 }/*# sourceMappingURL=index.css.map */

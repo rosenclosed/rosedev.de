@@ -94,10 +94,17 @@ main {
     border: .15rem solid white;
     padding: .75rem;
     background: rgba(0, 0, 0, 0.33);
-    min-width: 70%;
-    min-height: 70%;
+    width: 70%;
+    height: 70%;
+    @media screen and (orientation:portrait) {
+        width: 90%;
+        height: 90%;
+    }
+    overflow: scroll;
 
     &>div {
-        min-width: 45%;
+        flex-grow: 1;
+        flex-shrink: 0.5;
+        max-width: 95%;
     }
 }
