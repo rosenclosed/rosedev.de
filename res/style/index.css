@@ -74,6 +74,29 @@ nav {
   align-items: center;
   align-content: center;
   border-bottom: 0.15rem solid white;
+  /* @media screen and (orientation:portrait) {
+      padding-top: .25rem;
+  }; */
+  padding-top: 0.25rem;
+  /*     >:first-child {
+          padding-left: .25rem;
+          padding-right: .125rem;
+      }
+
+      >:last-child {
+          padding-left: .125rem;
+          padding-right: .25rem;
+      } */
+}
+nav > a {
+  text-decoration: none;
+  color: white;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+nav > .active {
+  background-color: white;
+  color: rgb(0, 0, 0);
 }
 
 main {
@@ -104,5 +127,10 @@ main {
 main > div {
   flex-grow: 1;
   flex-shrink: 0.5;
-  max-width: 95%;
+  max-width: 50%;
+}
+@media screen and (orientation: portrait) {
+  main > div {
+    max-width: 95%;
+  }
 }/*# sourceMappingURL=index.css.map */

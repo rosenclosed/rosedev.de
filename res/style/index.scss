@@ -146,6 +146,9 @@ main {
     &>div {
         flex-grow: 1;
         flex-shrink: 0.5;
+        max-width: 50%;
+        @media screen and (orientation:portrait) {
         max-width: 95%;
+        }
     }
 }
