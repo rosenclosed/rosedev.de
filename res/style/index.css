@@ -14,8 +14,40 @@
   font-style: normal;
   font-display: swap;
 }
+html {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
 body {
+  margin: 0 0 0 0;
   font-family: "Departure Mono", "Courier New", Courier, monospace;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(131deg, rgb(2, 0, 36) 0%, rgb(10, 0, 140) 36%, rgb(48, 0, 97) 100%) no-repeat;
+  color: white;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
 }
 
 header {
@@ -29,4 +61,17 @@ nav {
   justify-content: flex-start;
   align-items: center;
   align-content: center;
+  border-bottom: 0.15rem solid white;
+}
+
+main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 0.15rem solid white;
+  padding: 0.75rem;
+  background: rgba(0, 0, 0, 0.33);
+  min-width: 70%;
+  min-height: 70%;
 }/*# sourceMappingURL=index.css.map */
