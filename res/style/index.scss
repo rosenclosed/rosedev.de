@@ -94,28 +94,28 @@ header {
     height: 1.5rem;
 }
 
-nav{
+nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
     align-content: center;
-    border-bottom: .15rem solid white;
+    border-bottom: 0.15rem solid white;
     /* @media screen and (orientation:portrait) {
         padding-top: .25rem;
     }; */
 
-    padding-top: .25rem;
+    padding-top: 0.25rem;
 
-    >a {
+    > a {
         text-decoration: none;
         color: white;
-        padding-left: .25rem;
-        padding-right: .25rem;
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
     }
 
-/*     >:first-child {
+    /*     >:first-child {
         padding-left: .25rem;
         padding-right: .125rem;
     }
@@ -124,8 +124,8 @@ nav{
         padding-left: .125rem;
         padding-right: .25rem;
     } */
-    
-    >.active {
+
+    > .active {
         background-color: white;
         color: rgba(0, 0, 0);
     }
@@ -143,23 +143,23 @@ main {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    border: .15rem solid white;
-    padding: .75rem;
+    border: 0.15rem solid white;
+    padding: 0.75rem;
     background: rgba(0, 0, 0, 0.33);
     width: 70%;
     height: 70%;
-    @media screen and (orientation:portrait) {
+    @media screen and (orientation: portrait) {
         width: 85%;
         height: 85%;
     }
     overflow: scroll;
 
-    &>div {
+    & > div {
         flex-grow: 1;
         flex-shrink: 0.5;
         max-width: 50%;
-        @media screen and (orientation:portrait) {
-        max-width: 95%;
+        @media screen and (orientation: portrait) {
+            max-width: 95%;
         }
     }
 }
