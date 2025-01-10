@@ -65,7 +65,14 @@ nav {
 }
 
 main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: stretch;
   position: absolute;
+  text-align: left;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -74,4 +81,7 @@ main {
   background: rgba(0, 0, 0, 0.33);
   min-width: 70%;
   min-height: 70%;
+}
+main > div {
+  min-width: 45%;
 }/*# sourceMappingURL=index.css.map */
