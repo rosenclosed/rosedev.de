@@ -85,8 +85,8 @@ main {
 }
 @media screen and (orientation: portrait) {
   main {
-    width: 90%;
-    height: 90%;
+    width: 85%;
+    height: 85%;
   }
 }
 main > div {
