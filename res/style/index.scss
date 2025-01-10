@@ -132,12 +132,6 @@ nav {
 }
 
 main {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: stretch;
-    align-content: stretch;
     position: absolute;
     text-align: left;
     left: 50%;
@@ -153,6 +147,23 @@ main {
         height: 85%;
     }
     overflow: scroll;
+
+    a {
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration-style: double;
+        }
+    }
+}
+
+.mainflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
 
     & > div {
         flex-grow: 1;
@@ -176,14 +187,6 @@ main {
             }
         }
     }
-
-    a {
-        text-decoration: underline;
-
-        &:hover {
-            text-decoration-style: double;
-        }
-    }
 }
 
 .bullet-list {
@@ -201,5 +204,11 @@ main {
                 margin-bottom: 1em;
             }
         } */
+    }
+
+    &.mg-1 {
+        li {
+            margin-bottom: 1em;
+        }
     }
 }

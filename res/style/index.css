@@ -107,12 +107,6 @@ nav > .active {
 }
 
 main {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: stretch;
-  align-content: stretch;
   position: absolute;
   text-align: left;
   left: 50%;
@@ -131,32 +125,41 @@ main {
     height: 85%;
   }
 }
-main > div {
-  flex-grow: 1;
-  flex-shrink: 0.5;
-  max-width: 50%;
-}
-@media screen and (orientation: portrait) {
-  main > div {
-    max-width: 95%;
-  }
-}
-main > div.picture-wrapper {
-  text-align: center;
-}
-main > div picture {
-  max-width: 95%;
-  max-height: 95%;
-}
-main > div picture img {
-  max-width: 95%;
-  max-height: 95%;
-}
 main a {
   text-decoration: underline;
 }
 main a:hover {
   text-decoration-style: double;
+}
+
+.mainflex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: stretch;
+}
+.mainflex > div {
+  flex-grow: 1;
+  flex-shrink: 0.5;
+  max-width: 50%;
+}
+@media screen and (orientation: portrait) {
+  .mainflex > div {
+    max-width: 95%;
+  }
+}
+.mainflex > div.picture-wrapper {
+  text-align: center;
+}
+.mainflex > div picture {
+  max-width: 95%;
+  max-height: 95%;
+}
+.mainflex > div picture img {
+  max-width: 95%;
+  max-height: 95%;
 }
 
 .bullet-list {
@@ -174,4 +177,7 @@ main a:hover {
           margin-bottom: 1em;
       }
   } */
+}
+.bullet-list.mg-1 li {
+  margin-bottom: 1em;
 }/*# sourceMappingURL=index.css.map */
