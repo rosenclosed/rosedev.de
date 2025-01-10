@@ -91,6 +91,33 @@ nav{
     align-items: center;
     align-content: center;
     border-bottom: .15rem solid white;
+    /* @media screen and (orientation:portrait) {
+        padding-top: .25rem;
+    }; */
+
+    padding-top: .25rem;
+
+    >a {
+        text-decoration: none;
+        color: white;
+        padding-left: .25rem;
+        padding-right: .25rem;
+    }
+
+/*     >:first-child {
+        padding-left: .25rem;
+        padding-right: .125rem;
+    }
+
+    >:last-child {
+        padding-left: .125rem;
+        padding-right: .25rem;
+    } */
+    
+    >.active {
+        background-color: white;
+        color: rgba(0, 0, 0);
+    }
 }
 
 main {
